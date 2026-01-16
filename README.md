@@ -5,6 +5,8 @@
 # Funny Side-note
 - All of this happened because I didn't read the included documentation in [ComfyUI-QwenVL](https://github.com/1038lab/ComfyUI-QwenVL)
 - There are pre-built wheels with vision support at: https://github.com/JamePeng/llama-cpp-python/releases/
+- **BONUS MISTAKE:** I also built the wheel for Python 3.11 when my venv uses Python 3.12 🤦‍♂️
+- Lesson learned: Always check your Python version AND read the docs BEFORE spending 30+ minutes compiling!
 - **However**, if you need the latest features, specific CUDA versions, or want maximum performance, this build guide is still the way to go!
 
 ## Problem Statement
